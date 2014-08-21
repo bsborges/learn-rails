@@ -17,4 +17,6 @@
 
 # Ignore application configuration
 /config/application.yml
-/spring/*
+
+# Ignore UX components: user stories, wireframews, etc.
+/ux
