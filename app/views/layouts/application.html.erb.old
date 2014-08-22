@@ -12,6 +12,7 @@
   </div>
   <div class='sidebar'>
     <%= yield :sidebar %>
-  </div>  
+  </div>
+  <footer><%= render 'layouts/footer' %></footer>
 </body>
 </html>

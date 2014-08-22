@@ -6,9 +6,9 @@ class VisitorsController < ApplicationController
         # render 'visitors/new', :layout => false [render the view without any application layout]
         # render 'visitors/new', :special [render the view with a specific layout, such as administrative pages or landing pages]
         
-        flash.now[:notice] = 'Welcome!'
-        flash.now[:alert] = 'My birthday is soon.'
-        flash[:warning] = 'My birthday is soon.'
+        # flash.now[:notice] = 'Welcome!'
+        # flash.now[:alert] = 'My birthday is soon.'
+        # flash[:warning] = 'My birthday is soon.'
         
     end
 end
